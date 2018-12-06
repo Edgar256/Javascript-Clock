@@ -1,5 +1,6 @@
 body{
 	font-size: 25px;
+
 }
 .topDiv{
 	margin: 25px;
@@ -18,9 +19,18 @@ body{
     margin: auto;
     text-align: center;
 }
-.btnClock{
+.btnClock, .btnClock.focus, .btnClock:focus, .btnClock:hover.btnClock.focus, .btnClock:focus, .btnClock:hover{
 	width: 100%;
 	background-color: #012839;;
 	color: #fff;
 	margin: 5px;
+}
+@media (max-width: 500px){
+	/*body{
+		min-width: 300px;
+		}*/
+	.mainClock{
+		width: 100%;
+		min-width: 280px;
+	}
 }

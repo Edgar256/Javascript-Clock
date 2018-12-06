@@ -16,7 +16,7 @@ $(document).ready(function(){
 		var secTime0 = secTime.toString();
 
 		if (minTime0.length < 2){
-			secTime = '0' + minTime;
+			minTime = '0' + minTime;
 		};
 
 		if (secTime0.length < 2){

@@ -23,8 +23,11 @@ function conv24(){
 			var amPm0 = document.getElementById("amPm");
 
 			if( amPm0 = 'am'){
-				document.getElementById("hrClock").innerHTML = 12 + hrTime;
-				document.getElementById("amPm").innerHTML = '';
+				var hrTime0 = 12 + hrTime ;
+				/*amPm.style.display = 'none';*/
+				var amPm2 = ' ';
+				document.getElementById("hrClock").innerHTML = hrTime;
+				/*document.getElementById("amPm").innerHTML = amPm2;*/
 			}
 			
 		}, 1000);
